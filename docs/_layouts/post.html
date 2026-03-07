@@ -1,10 +1,20 @@
 ---
 layout: default
 ---
+<style>
+  .post .date {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.03em;
+  }
+</style>
+
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
-    {{ page.date | date_to_string }}
+    {{ page.date | date: "%B %d, %Y" }}
   </div>
 
   <div class="entry">
