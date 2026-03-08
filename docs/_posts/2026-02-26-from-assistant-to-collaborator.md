@@ -1,4 +1,9 @@
-# From Assistant to Collaborator: AI's New Role in the Laboratory
+---
+layout: post
+title: "From Assistant to Collaborator: AI's New Role in the Laboratory"
+date: 2026-02-26
+categories: science collaboration
+---
 
 For years, we've treated artificial intelligence as a tireless, infinitely patient research assistant. We give it mountains of data—the scattered light from a distant star, the tangled pathways of a folded protein, the chaotic noise of a particle collision—and it gives us back patterns and summaries. It’s been an indispensable tool for the modern scientist, a cognitive powerhouse that can see the needle in a universe of haystacks. But it has been a tool nonetheless.
 
