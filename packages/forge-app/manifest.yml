@@ -1,7 +1,7 @@
 modules:
   confluence:spaceSettings:
     - key: riffle-sync-settings
-      route: riffle-sync
+      resource: spaceSettingsResource
       title: Riffle Sync
       render: native
       resolver:
@@ -26,6 +26,10 @@ modules:
       handler: src/triggers.handler
     - key: spaceSettingsResolver
       handler: src/resolvers.handler
+
+resources:
+  - key: spaceSettingsResource
+    path: src/frontend/SpaceSettings.jsx
 
 permissions:
   scopes:
