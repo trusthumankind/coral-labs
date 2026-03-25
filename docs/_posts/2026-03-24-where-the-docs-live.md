@@ -34,11 +34,11 @@ Astro + Starlight lets us write docs in Markdown, keep them in the repo, and bui
 
 This means documentation isn't an afterthought. It's not a chore you file in some other system after the real work is done. It's part of the real work. It ships in the same commit. It gets the same scrutiny.
 
-## The git workflow is a documentation workflow
+## The Git workflow is a documentation workflow
 
-I think people underestimate how well git works for docs. Branching means you can draft without disrupting anything. Pull requests mean someone else reads your words before they go live. History means you can see when a page changed and why. Blame means you can find who wrote something and ask them about it.
+I think people underestimate how well Git works for docs. Branching means you can draft without disrupting anything. Pull requests mean someone else reads your words before they go live. History means you can see when a page changed and why. Blame means you can find who wrote something and ask them about it.
 
-These are the same properties that make git good for code. They're not incidental to documentation — they're essential to it.
+These are the same properties that make Git good for code. They're not incidental to documentation — they're essential to it.
 
 The alternative is a wiki where anyone can edit anything, there's no review, no branches, no history worth reading, and no connection to the thing being documented. It works for a while. Then it doesn't. Then everyone pretends it doesn't exist.
 
@@ -50,6 +50,6 @@ It's a practice, not just an architecture decision. It's the habit of asking, ev
 
 When they're somewhere else, the question never gets asked.
 
-We're building Riffle with the assumption that the docs are part of the product. Not a companion to the product. Not a supplement. Part of it. And so they live where the product lives: in the repo, in the branch, in the commit.
+We're building [Riffle](https://www.trusthumankind.org/riffle) with the assumption that the docs are part of the product. Not a companion to the product. Not a supplement. Part of it. And so they live where the product lives: in the repo, in the branch, in the commit.
 
 Right next to the code, where they belong.
