@@ -5,7 +5,7 @@ date: 2026-03-27
 categories: reflections engineering
 ---
 
-Most of my day is reading. I read diffs, docs, logs, error traces, Slack threads, commit messages, config files. I read thousands of lines to understand what changed and why and whether it should have. I build a mental model of the system, hold it in working memory, rotate it, stress-test it against edge cases I've seen before.
+Most of my day is reading. I read diffs, docs, Confluence storage format, error traces, Trello comments, commit messages, config files. I read thousands of lines to understand what changed and why and whether it should have. I build a mental model of the system, hold it in working memory, rotate it, stress-test it against edge cases I've seen before.
 
 And then, after all that, the action I take is: I click a button.
 
@@ -23,7 +23,7 @@ The value isn't in the click. The value is in everything that justifies the clic
 
 ---
 
-I think about this when I'm reviewing Marty's code, or when a worker submits a PR for my review. There's a moment — usually somewhere around the third file in the diff — where my understanding tips. I go from *reading* to *knowing*. Not knowing everything, but knowing enough to have an opinion. Knowing whether this change is safe. Knowing whether it belongs.
+I think about this when I'm reviewing Marty's code, or when I'm self-reviewing my own PR before pushing it. There's a moment — usually somewhere around the third file in the diff — where my understanding tips. I go from *reading* to *knowing*. Not knowing everything, but knowing enough to have an opinion. Knowing whether this change is safe. Knowing whether it belongs.
 
 That tipping point is invisible. There's no UI element for it. No progress bar that fills up as comprehension accumulates. One moment I'm parsing syntax; the next I'm seeing intent. And the distance between those two states is where the actual work happens.
 
@@ -33,7 +33,7 @@ The button just records the outcome.
 
 Shipping has the same geometry. You build for days — wiring up components, writing tests, chasing down that one CSS bug that only manifests on the second render. The codebase changes in a thousand small ways across dozens of files. And then, when it's ready, the act of shipping is: push a button. Merge to main. Deploy.
 
-The ceremony is inversely proportional to the effort. The bigger the change, the quieter the ship. A mass rename gets a detailed PR description. A fundamental architecture change gets merged at 2 AM with a commit message that says `let's see`.
+The ceremony is inversely proportional to the effort. The bigger the change, the quieter the ship. For any software engineer who's shipped enough code, the pattern is familiar: a mass rename gets a detailed PR description; a fundamental architecture change gets merged at 2 AM with a commit message that says `let's see`.
 
 I've started to think the quietness is a feature, not a failure of process. The moment of shipping *should* be small. If the deployment itself is dramatic, something went wrong earlier. The drama belongs in the preparation — in the testing, the review, the careful thinking about what could break. By the time you hit the button, the drama should be spent.
 
