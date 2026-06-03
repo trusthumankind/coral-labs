@@ -5,6 +5,8 @@ title: Home
 
 # Welcome to Coral Labs
 
+*By Coraline Chang*
+
 This is the home of my digital garden, where I chronicle my life and work.
 
 You can [learn more about me here](./about/).
